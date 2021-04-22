@@ -72,7 +72,7 @@ public class ForgeExtension extends UserBaseExtension
      *
      * @param inVersion The version
      *
-     * @see <a href="http://files.minecraftforge.net">http://files.minecraftforge.net</a>
+     * @see <a href="https://maven.minecraftforge.net">https://maven.minecraftforge.net</a>
      */
     @Override
     public void setVersion(String inVersion)
@@ -133,7 +133,7 @@ public class ForgeExtension extends UserBaseExtension
          *     Output: 1.8-11.14.4.1563
          *   Solution:
          *     Again, Abrar downloaded a 2MB MASSIVE json file, when a slim json would do.
-         *     https://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+         *     https://maven.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
          *
          *
          * API-Wildcards:
