@@ -27,8 +27,12 @@ sourceCompatibility = '1.6'
 repositories {
     mavenLocal()
     maven {
-        name = "forge"
-        url = "https://maven.minecraftforge.net"
+            name = "quail-mcforge-proxy"
+            url = "http://openai-proxies-quail-0.rcall.raul.svc.quail.sci.openai.org:8081/repository/maven-minecraftforge-net/"
+    }
+    maven {
+            name = "owl-openai-proxy"
+            url = "http://openai-proxies-0.rcall.raul.svc.owl.sci.openai.org:8081/repository/openai-all-proxies/"
     }
     maven {
         // because Srg2Source needs an eclipse dependency.
